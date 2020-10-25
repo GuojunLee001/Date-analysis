@@ -123,6 +123,8 @@ score['zhaoyun'] = 98
 print(score)
 #删除一个元素
 score.pop('zhangfei')
+print(score)
+
 #查看key是否存在
 print('guanyu' in score)
 #查看一个key对应的值
@@ -134,6 +136,7 @@ print(score.get('yase',99))
 
 ```python
 {'guanyu': 95, 'zhangfei': 96, 'zhaoyun': 98}
+{'guanyu': 95, 'zhaoyun': 98}
 True
 95
 99
@@ -160,11 +163,12 @@ print('c' in s)
 
 输出结果为：
 
-```
+```python
 {'d', 'a', 'c'}
 True
 ```
 
+集合和字典类似，但在增删查语法上有所区别：
 增： add
 
 删：remove
